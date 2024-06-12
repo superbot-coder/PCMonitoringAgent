@@ -5,11 +5,19 @@
 **[ENG] This is a REST API server that broadcasts computer sensor readings such as temperature, fan speed, voltage, etc. from AIDA64 programs and "Open Hardware Monitor" to JSON format via HTTP**
 
 **[rus] Список поддерживаемых запросов; [eng] List of supported queries:**
- - http://host:port/version
- - http://host:port/cpu_info
- - http://host:port/ohm_sensors
- - http://host:port/aida64_sensors
- - http://host:port/aida64_sensors_upper
+- host:port/access_key
+- host:port/aida64_sensors
+- host:port/aida64_sensors.json
+- host:port/cpu_info
+- host:port/cpu_info.json 
+- host:port/ohm_sensors
+- host:port/ohm_sensors.json
+- host:port/reboot
+- host:port/shellexecute
+- host:port/shutdown
+- host:port/test_authorization
+- host:port/update_agent
+- host:port/version
  
 ### **Настройка AIDA64 для экспорта данных сенсоров**
 
